@@ -219,6 +219,7 @@ header#header p {
 }
 
 footer#footer {
+  overflow-x: hidden;
   z-index: 2;
   width: 100vw;
   min-height: 100vh;
@@ -762,6 +763,19 @@ section#main #menu {
 }
 
 @media screen and (max-width: 1000px) {
+  #list {
+    margin-bottom: 0;
+  }
+  .card {
+    overflow: clip !important;
+  }
+  #f_menu a {
+    opacity: 0.15;
+    color: #e2e3e5;
+  }
+  #f_menu a:hover, #f_menu a:focus, #f_menu a:active {
+    opacity: 0.8;
+  }
   #menu [data-tooltip]:before, #menu [data-tooltip]:after {
     content: none;
   }
