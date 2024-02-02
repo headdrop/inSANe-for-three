@@ -1,4 +1,5 @@
 *.pug
+*.scss
 /node_modules
 /pug
 package-lock.json
